@@ -49,3 +49,8 @@ localhost/project/
 3.	Select proje.php from the displayed files.
 4.	Your website for online auction is now ready to use!
 
+
+
+If any problem occurs refer to the link 
+https://youtu.be/G2VEf-8nepc?si=0YG2NAnwQuvAFc_g
+
