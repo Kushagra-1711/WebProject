@@ -41,13 +41,33 @@ Step 7: Organize Image Uploads
 1.	Inside the project folder, create a new folder named uploads.
 2.	Copy and paste all images from the uploads repository into this folder.
 ________________________________________
-Step 8: Run the Project
-1.	Open Google Chrome (or any browser).
-2.	In the address bar, type:
-localhost/project/
-(Replace “project” with the actual folder name if different.)
-3.	Select proje.php from the displayed files.
-4.	Your website for online auction is now ready to use!
+✅ XAMPP Setup & Database Import:
+1.Download XAMPP from official website.
+2.Install XAMPP and select Apache, MySQL, PHP, phpMyAdmin components.
+3.Launch XAMPP Control Panel.
+4.Start Apache & MySQL (click "Start" for both).
+5.Open phpMyAdmin by visiting http://localhost/phpmyadmin/.
+6.Click "Databases" and create a new database by providing a name and clicking "Create".
+7.Click the created database name from the list.
+8.Click "Import" from the top menu.
+9.Click "Choose File" and select your .sql file.
+10.Click "Go" to import the database.
+11.Confirm success message for successful import.
+12. Now go to browser
+
+✅ Running a Project in XAMPP 
+1.Copy your project folder to C:\xampp\htdocs\YourProjectName.
+2.Open XAMPP Control Panel and Start Apache & MySQL.
+3.Go to phpMyAdmin at http://localhost/phpmyadmin/.
+4.Create a new database or import a .sql file if needed.
+5.Configure database connection in your project’s config file (config.php, db.php, or .env).
+6.Visit your project at http://localhost/YourProjectName/.
+7.Test and debug if necessary.
+
+
+PLEASE START THE PROJECT WITH firstpage.php
+OR DIRECTLY TYPE localhost/project/firstpage.php
+
 
 
 
